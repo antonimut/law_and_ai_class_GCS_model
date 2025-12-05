@@ -1,6 +1,6 @@
 # Gender Classification & Algorithmic Bias
 
-## verview
+## Overview
 This repository contains a Python implementation of a simple **gender classification system**.  
 It is designed as an **educational activity for law students** to explore how **data biases** affect AI performance, particularly in the context of **algorithmic misgendering**.
 
