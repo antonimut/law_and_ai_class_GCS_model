@@ -6,6 +6,17 @@ It is designed as an **educational activity for law students** to explore how **
 
 The project uses the **CelebA dataset**, a widely used facial attribute dataset, to demonstrate how imbalances in training data can reinforce societal prejudices and lead to biased outcomes.
 
+## Content 
+
+The repository includes the following files and their uses:
+
+- **Notebook**: Demonstrates step-by-step how to use the model.  
+- **PowerPoint presentation**: Designed for classroom use to explain how the model works and to present the activity.  
+- **PDF document**: Contains the activity we completed last year.  
+- **LaTeX repository (ZIP file)**: Provides the source files in case you want to modify the activity.  
+- **Set of pictures**: Useful for recreating the activity in class.  
+- **Example picture**: Used to run the demonstration.  
+
 ## Objectives
 - Understand how AI training datasets contribute to biased outcomes.  
 - Analyze statistical distributions in datasets to predict potential algorithmic biases.  
