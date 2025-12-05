@@ -36,7 +36,24 @@ Within the notebook, you can adjust the following parameters:
 - **`batch_size`**: batch size for training  
 - **`plot`**: generate visualizations of attribute distributions  
 
-A pre-trained model is already available in **`gender_recognition.keras`**, so you can load and use it directly without retraining if desired.  
+A pre-trained model is available for direct use without retraining:  
+
+- **Download Link:** [gender_recognition.keras](https://www.dropbox.com/scl/fi/8gyk05ovq3x97xb6iy4s4/gender_recognition.keras?rlkey=siwtgf3pho8isp6uvx2atcwr4&st=nxpg542o&dl=0)  
+
+You can load the model in your notebook or script with:  
+
+```python
+from tensorflow import keras
+
+# Load the pre-trained model
+model = keras.models.load_model("gender_recognition.keras")
+
+# Use the model for inference
+predictions = model.predict(your_input_data)
+```
+
+This allows you to skip the training step and immediately run evaluations or integrate the model into your application.  
+---
 
 ## Example Analysis
 The code includes tools to:
