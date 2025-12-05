@@ -28,8 +28,7 @@ cd gender-classification-bias
 pip install -r requirements.txt
 ```
 
-### Usage
-
+## Usage
 Open the Jupyter notebook **`GCS_Law_and_AI.ipynb`** to train and evaluate the classifier interactively.  
 
 Within the notebook, you can adjust the following parameters:  
