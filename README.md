@@ -15,7 +15,8 @@ The repository includes the following files and their uses:
 - **PDF document**: Contains the activity we completed last year.  
 - **LaTeX repository (ZIP file)**: Provides the source files in case you want to modify the activity.  
 - **Set of pictures**: Useful for recreating the activity in class.  
-- **Example picture**: Used to run the demonstration.  
+- **Example picture**: Used to run the demonstration.
+- **CSV File**: Contains data on the pictures used to train the model (useful for identifying potential biases).
 
 ## Objectives
 - Understand how AI training datasets contribute to biased outcomes.  
