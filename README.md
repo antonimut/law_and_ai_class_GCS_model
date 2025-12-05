@@ -50,7 +50,7 @@ model = keras.models.load_model("gender_recognition.keras")
 predictions = model.predict(your_input_data)
 ```
 
-This allows you to skip the training step and immediately run evaluations or integrate the model into your application.  
+This allows you to skip the training step.  
 
 ---
 
