@@ -19,26 +19,12 @@ By experimenting with this project, law students can:
 - Debate the **legal responsibility** of developers and institutions deploying biased AI.  
 - Connect **data bias** to broader issues of discrimination and equality.  
 
-## Installation
-Clone the repository and install dependencies:
-
-```bash
-git clone https://github.com/yourusername/gender-classification-bias.git
-cd gender-classification-bias
-pip install -r requirements.txt
-```
-
 ## Usage
-Open the Jupyter notebook **`GCS_Law_and_AI.ipynb`** to train and evaluate the classifier interactively.  
 
-Within the notebook, you can adjust the following parameters:  
-- **`epochs`**: number of training epochs  
-- **`batch_size`**: batch size for training  
-- **`plot`**: generate visualizations of attribute distributions  
-
-A pre-trained model is available for direct use without retraining:  
-
-- **Download Link:** [gender_recognition.keras](https://www.dropbox.com/scl/fi/8gyk05ovq3x97xb6iy4s4/gender_recognition.keras?rlkey=siwtgf3pho8isp6uvx2atcwr4&st=nxpg542o&dl=0)  
+- Open the Jupyter notebook **`step-by-step_guide.ipynb`** to use the GCS interactively.  
+- The pre-trained model is available for direct use without retraining:
+  
+  - **Download Link:** [gender_recognition.keras](https://www.dropbox.com/scl/fi/8gyk05ovq3x97xb6iy4s4/gender_recognition.keras?rlkey=siwtgf3pho8isp6uvx2atcwr4&st=nxpg542o&dl=0)  
 
 You can load the model in your notebook or script with:  
 
